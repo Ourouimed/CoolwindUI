@@ -1,0 +1,159 @@
+/* Base Button */
+.btn{
+    @apply bg-default cursor-pointer py-2 px-4 rounded-md border border-transparent
+    shadow-sm opacity-75 
+    transition-all ease-in duration-300 
+    font-bold
+    flex items-center gap-2
+}
+.btn:hover {
+    @apply opacity-100 
+}
+
+.btn-sm {
+    @apply text-sm px-3 py-1.5;
+  }
+  
+  .btn-md {
+    @apply text-base px-4 py-2;
+  }
+  
+  .btn-lg {
+    @apply text-lg px-5 py-2.5;
+  }
+
+
+.btn-primary {
+    @apply bg-primary text-white;
+}
+
+.btn-secondary {
+    @apply bg-secondary text-white;
+}
+
+.btn-success {
+    @apply bg-success text-white;
+}
+
+.btn-danger {
+    @apply bg-danger text-white;
+}
+
+.btn-warning {
+    @apply bg-warning text-black;
+}
+
+
+/* Soft Button */
+.btn-soft {
+    @apply bg-default-soft 
+}
+.btn-soft.btn-primary{
+    @apply bg-primary-soft text-primary;
+ 
+ }
+
+ .btn-soft.btn-secondary{
+    @apply bg-secondary-soft text-secondary;
+ 
+ }
+
+ .btn-soft.btn-success{
+    @apply bg-success-soft text-success;
+ 
+ }
+
+ .btn-soft.btn-danger{
+    @apply bg-danger-soft text-danger;
+ 
+ }
+
+
+ .btn-soft.btn-warning{
+    @apply bg-warning-soft text-warning;
+ 
+ }
+
+/* Outline Button */
+.btn-outline {
+    @apply bg-transparent border-default
+}
+.btn-outline:hover {
+    @apply bg-default  
+}
+
+
+.btn-primary.btn-outline {
+    @apply border-primary text-primary 
+}
+
+.btn-primary.btn-outline:hover {
+    @apply bg-primary text-white 
+}
+
+.btn-secondary.btn-outline {
+    @apply border-secondary text-secondary 
+}
+
+.btn-secondary.btn-outline:hover {
+    @apply bg-secondary text-white 
+}
+
+
+.btn-success.btn-outline {
+    @apply border-success text-success 
+}
+.btn-success.btn-outline:hover {
+    @apply bg-success text-white 
+}
+
+
+
+
+.btn-danger.btn-outline {
+    @apply border-danger text-danger 
+}
+.btn-danger.btn-outline:hover {
+    @apply bg-danger text-white 
+}
+
+
+
+
+.btn-warning.btn-outline {
+    @apply border-warning text-warning 
+}
+.btn-warning.btn-outline:hover {
+    @apply bg-warning text-black 
+}
+
+/* Outline Dashed */
+.btn-outline.dashed {
+    @apply border-dashed 
+}
+
+/* Rounded Button */
+.btn-rounded {
+    @apply rounded-full
+}
+/* Block Button */
+.btn-block {
+    @apply w-full text-center block
+}
+
+/* Button group */
+.btn-group {
+    @apply flex items-center;
+}
+
+.btn-group > .btn:first-child {
+    @apply rounded-r-none
+}
+.btn-group > .btn:not(:last-child , :first-child) {
+    @apply rounded-none
+}
+.btn-group > .btn:last-child {
+    @apply rounded-l-none
+}
+
+

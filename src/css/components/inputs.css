@@ -1,0 +1,7 @@
+.input {
+    @apply py-2 px-4 rounded-md border border-default outline-none
+    transition-all duration-300 ease-in-out 
+} 
+.input:focus {
+    @apply border-primary
+}

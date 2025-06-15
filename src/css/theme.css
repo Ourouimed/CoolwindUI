@@ -1,0 +1,20 @@
+@theme {
+    --color-default :rgb(218 223 227);
+    --color-default-soft : rgb(218 223 227 /50%);
+
+
+    --color-primary: rgb(0 130 255);
+    --color-primary-soft : rgb(0 130 255 / 22%);
+
+    --color-secondary : rgb(50 48 60);
+    --color-secondary-soft : rgb(50 48 60 / 22%);
+
+    --color-success : rgb(9 197 98);
+    --color-success-soft : rgb(9 197 98 /22%);
+
+    --color-danger : rgb(255 0 0);
+    --color-danger-soft : rgb(255 0 0 / 22%);
+
+    --color-warning : rgb(255 200 2);
+    --color-warning-soft : rgb(255 200 2 / 22%);
+}
